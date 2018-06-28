@@ -10,10 +10,10 @@ int main() {
  
     if (num >= 2) {
         for (int a = 2; a <= num; a++) {
-            n[a] = n[a - 1] + n[a - 2];
+            al[a] = al[a - 1] + al[a - 2];
         }
     }
  
-    printf("%lld\n", n[num]);
+    printf("%lld\n", al[num]);
  
 }
