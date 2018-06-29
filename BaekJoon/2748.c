@@ -3,7 +3,6 @@
 int main() {
     int num;
     long long int al[91];
-    long long int 
     al[0] = 0;
     al[1] = 1;
  
