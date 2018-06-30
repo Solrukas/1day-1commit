@@ -13,7 +13,5 @@ int main() {
             al[i] = al[i - 1] + al[i - 2];
         }
     }
- 
     printf("%lld\n", al[num]);
- 
 }
