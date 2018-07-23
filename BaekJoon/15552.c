@@ -6,8 +6,8 @@ int main() {
 	scanf("%d", &num);
 
 	while (num--) {
-		int x, y;
-		scanf("%d %d", &x, &y);
-		printf("%d\n", x + y);
+		int n1, n2;
+		scanf("%d %d", &n1, &n2);
+		printf("%d\n", n1 + n2);
 	}
 }
